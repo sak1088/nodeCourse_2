@@ -48,8 +48,8 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-    res.render('about.hbs', {
-        pageName: 'Help'
+    res.render('projects.hbs', {
+        pageName: 'Projects'
     });
 });
 
